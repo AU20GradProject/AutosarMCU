@@ -13,7 +13,7 @@
 #define MCU_H_
 
 #include "Mcu_Cfg.h"
-#include "Std_Types.h"
+#include "../../Common/Std_Types.h"
 
 /*********************************************************************/
 
