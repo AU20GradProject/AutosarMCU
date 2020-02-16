@@ -13,7 +13,7 @@
 #define MCU_H_
 
 #include "Mcu_Cfg.h"
-#include "../../Common/Std_Types.h"
+#include "../Common/Std_Types.h"
 
 /*********************************************************************/
 
@@ -458,7 +458,7 @@ FUNC ( void, MCU_CODE ) Mcu_SetMode( Mcu_ModeType McuMode ) ;
 /*
     - Synchronous, Reentrant, Service ID : 0x0A
     - provides the actual status of the microcontroller Ram. (if supported)
-    - MCU module’s environment shall call this function only if the MCU module has been already initialized
+    - MCU modules environment shall call this function only if the MCU module has been already initialized
     - function shall be available to the Mcu_GetRamState user if the pre-compile parameter is set to TRUE McuGetRamStateApi
     - tiva c don't support ram state so if this service is enabled will always return MCU_RAMSTATE_VALID
 
