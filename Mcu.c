@@ -11,8 +11,8 @@
 
 #include "Mcu_MemMap.h"
 #include "Mcu.h"
-#include "../Common/Dem.h"
-#include "../Common/Det.h"
+#include "Common/Dem.h"
+#include "Common/Det.h"
 #include "Mcu_Cbk.h"
 
 /*********************************************************************************************************/
