@@ -9,11 +9,12 @@
  *
  */
 
-#include "Mcu_MemMap.h"
 #include "Mcu.h"
-#include "Common/Dem.h"
-#include "Common/Det.h"
 #include "Mcu_Cbk.h"
+#include "Common/Mcu_MemMap.h"
+#include "Common/SchM_Mcu.h"
+#include "..\DET\Det.h"
+
 
 /*********************************************************************************************************/
 

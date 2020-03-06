@@ -99,6 +99,7 @@
 
 /******************************************************************/
 
+#define MCU_CONFIGURATION_SETTING_NUMBER 1
 #define MCU_MAX_CLOCK_SETTING_NUMBER 2
 #define MCU_MAX_RAM_SECTOR_NUMBER 2
 
